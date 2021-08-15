@@ -2,6 +2,11 @@
   "name": "recipe",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "BabyManisha.Sunkara",
+    "email": "babymaneesha@gmail.com",
+    "url": "https://babymanisha.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
