@@ -1,6 +1,7 @@
-# Recipe Book
+# [Recipe Book](https://master.d1yz6zibfzrkmz.amplifyapp.com/#/)
 
-Recipe Book is the place for best recipes that can be made with ingredients you have in hand! It is a collection of recipes, instructions, and information about the preparation.
+Recipe Book is the place for the best recipes that can be made with ingredients you have in hand! It is a collection of recipes, instructions, and information about the preparation.
+
 
 ----
 ## To Contribute
