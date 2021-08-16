@@ -11,3 +11,349 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+hr{
+  margin: 40px auto;
+  border-top: 1px dashed orangered;
+}
+
+
+/* Header Styles */
+
+.fixed-header{
+  width: 100%;
+  position: fixed;        
+  /* background: #333; */
+  /* background-color: #d4a640; */
+  background-color: tomato;
+  padding: 10px 0;
+  color: #fff;
+  top: 0;
+  z-index: 1;
+}
+
+nav{
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.app-logo{
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+}
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.app-name{
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.search-bar{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-item{
+  line-height: 3;
+  margin-right: 32px;
+}
+
+.activate-nav{
+  color: black;
+}
+
+/* Styles for Main Section */
+.main-container{
+  margin: 100px 10% 40px;
+}
+
+/* Styles for Random Recipe Section */
+.recipe-day{
+  text-align: center;
+  color: orange;
+  font-size: 40px;
+}
+
+.recipe-day-image{
+  width: 100%;
+  height: 400px;
+  border: solid orange 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.recipe-day-name {
+  background-color: bisque;
+  padding: 8px 20px;
+  color: chocolate;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: solid orange 2px;
+  border-top: none;
+}
+
+/* 
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.text:hover {
+  transform: rotateX(35deg), translateY(-50%);
+}
+.text:hover span {
+  color: #ccc;
+}
+.text:hover span:nth-child(odd) {
+  transform: skewY(15deg);
+}
+.text:hover span:nth-child(even) {
+  transform: skewY(-15deg);
+  background-color: #f9f9f9;
+  color: #a6a6a6;
+}
+.text > span {
+  display: block;
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+}
+.text > span:first-child {
+  border-radius: 5px 0 0 5px;
+} */
+
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  transform: rotateX(35deg), translateY(-50%);
+  margin: 10% 5%;
+}
+.text span {
+  /* color: #ccc; */
+  color: black;
+}
+.text span:nth-child(odd) {
+  transform: skewY(15deg);
+}
+.text span:nth-child(even) {
+  transform: skewY(-15deg);
+  /* background-color: lightblue; */
+  background-color: coral;
+  /* color: dimgrey; */
+  color: white;
+}
+.text > span {
+  display: block;
+  /* background-color: rgb(47 167 194); */
+  background-color: sandybrown;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+  font-size: 36px;
+}
+.text > span:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+
+/* Styles for Categories Page */
+.categories-nav-div{
+  font-size: 24px;
+  margin-left: 12px;
+  margin-bottom: 60px;
+}
+
+.category-item{
+  width: 100px;
+  height: 100px;
+  background-color: snow;
+  margin: 10px 20px !important;
+  text-align: center;
+  padding-top: 35px !important;
+  font-size: 20px;
+  border-radius: 12px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.category-item:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.category-item a{
+  text-decoration: none;
+  color: orange;
+  text-shadow: 2px 2px 4px #e6cccc;
+}
+
+
+/* Styles of Ingredients page */
+a.div-link{
+  color: inherit !important;
+}
+
+.ingredients-grid{
+  margin: 10px 20px !important;
+}
+
+.ingredients-box {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+  margin: 12px;
+}
+
+.img-container {
+  height: 230px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
+}
+
+.img-container img {
+  transform: skew(0deg, -13deg);
+  height: 250px;
+  margin: -35px 0px 0px -70px;
+}
+
+.inner-skew {
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+  transform: skew(0deg, 13deg);
+  font-size: 0px;
+  margin: 30px 0px 0px 0px;
+  background: #c8c2c2;
+  height: 250px;
+  width: 200px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.text-container h3 {
+  margin: 20px 0px 10px 0px;
+  color: orange;
+  font-size: 18px;
+}
+
+.ingredient-description{
+  height: 100px;
+  overflow: scroll;
+}
+
+
+/* Styles for Recipe Page */
+.instructions-list li{
+  line-height: 2;
+}
+
+.instructions-title{
+  margin-top: 6px;
+  margin-left: 22px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: bisque;
+  margin-right: 8px;
+}
+
+.recipe-info{
+  margin-left: 22px;
+}
+
+a.youtube-icon{
+  color: red;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.large-icon{
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.ingredient-line{
+  width: 50%;
+  margin: 40px auto;
+  border-top: 1px dashed orangered;
+}
+
+/* Styles for CountryNav Section */
+.country-item{
+  margin: 2px 18px !important;
+}
+
+
+/* Styles for AtoZNav Section */
+.az-nav-div, .country-nav-div{
+  text-align: center;
+  color: orange;
+}
+
+.az-nav-div h4{
+  margin-bottom: 6px;
+}
+
+.az-nav-div a{
+  text-decoration: none;
+  color: chocolate;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.az-nav-div a:hover{
+  color: orange;
+}
+
+.az-nav-div .az-nav-item:not(:last-child):after{
+  content: "/";
+  color: gray;
+  margin: 0 8px;
+}
+
+/* Styles for Footer Section */
+footer{
+  width: 100%;
+  height: 30px;
+  background-color: orangered;
+  text-align: center;
+  color: white;
+  line-height: 2;
+  font-size: small;
+}
